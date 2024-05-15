@@ -12,7 +12,8 @@ html,body{
 #page1{
   height: 100vh;
   position: relative;
-  background-color: lightblue;
+  background-color:#fff;
+  padding: 0 2vw;
 }
 #image1{
   height: 60px;
@@ -72,10 +73,18 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  background-color:orangered;
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2.5 vw;
 }
-#Lleft{
-  height: 30vw;
+#left h3 {
+  width: 30vw;
   font-size: 2vw;
-  font-family:RintBasic-Italic.ttf ;
+  font-family:'rintbasics-italic.ttf';
+  line-height: 2vw;
+}
+#centre h1{
+  font-size: 7vw;
+  line-height: 7vw;
+  text-align: right;
 }
